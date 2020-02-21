@@ -20,9 +20,8 @@ body {
   margin: 0 auto;
   color: #001028;
   background-color: #FFFFFF;
-  font-family: Arial, sans-serif;
+  font-family: 'Brandon', 'Arial', 'sans-serif';
   font-size: 12px;
-  font-family: Arial;
 }
 
 header {
@@ -94,7 +93,7 @@ table td.grand {
 }
 
 #notices {
-  margin-top: 90px;
+  margin-top: 80px;
 }
 
 #notices div {
@@ -109,7 +108,7 @@ table td.grand {
   font-size: 12px;
   line-height: 20px;
   color: #505050;
-  max-width: 290px;
+  max-width: 270px;
   width: 100%;
 }
 
@@ -149,8 +148,8 @@ header table td {
 }
 
 header table td div {
-  font-size: 10px;
-  line-height: 12px;
+  font-size: 12px;
+  line-height: 20px;
   text-transform: uppercase;
   color: #505050;
   font-weight: bold;
@@ -159,7 +158,7 @@ header table td div {
 header table td div span {
   display: block;
   font-size: 9px;
-  line-height: 10px;
+  line-height: 13px;
   letter-spacing: 0.9px;
   text-transform: uppercase;
   color: #505050;
@@ -169,8 +168,8 @@ header table td div span {
 
 .label-title {
   display: block;
-  font-size: 9px;
-  line-height: 10px;
+  font-size: 10px;
+  line-height: 15px;
   letter-spacing: 0.9px;
   text-transform: uppercase;
   color: #505050;
@@ -189,11 +188,12 @@ header table td div span {
 .client-name {
   font-style: normal;
   font-weight: 900;
-  font-size: 20px;
-  line-height: 22px;
+  font-size: 24px;
+  line-height: 27px;
   /* or 110% */
   text-transform: uppercase;
   color: #505050;
+  max-width: 300px;
 }
 
 .checkcode-main strong {
@@ -207,7 +207,9 @@ header table td div span {
 }
 
 .checkcode-main small {
-  font-size: 9px;
+  font-size: 12px;
+  max-width: 200px;
+  display: block;
 }
 
 .checkcode-title {
@@ -270,15 +272,16 @@ header table td div span {
   text-transform: uppercase;
   color: #505050;
   margin-bottom: 15px;
+  font-weight: 900;
 }
 
 .endorsements span {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 19px;
   text-transform: uppercase;
   display: block;
   color: #505050;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .penalty-points {
@@ -317,7 +320,7 @@ header table td div span {
 }
 
 .drive-table tbody td {
-  padding: 10px 20px;
+  padding: 10px 10px;
   font-size: 10px;
   line-height: 12px;
   text-transform: uppercase;
@@ -327,7 +330,7 @@ header table td div span {
 }
 
 .drive-table tbody td:first-child {
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .drive-table tbody td img {
