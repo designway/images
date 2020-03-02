@@ -1,0 +1,376 @@
+    * {
+        -webkit-print-color-adjust: exact;
+    }
+
+    .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    a {
+        color: #5D6975;
+        text-decoration: underline;
+    }
+
+    body {
+        position: relative;
+        width: 750px;
+        height: 29.7cm;
+        margin: 0 auto;
+        color: #001028;
+        background-color: #FFFFFF;
+        font-family: 'Brandon', 'Arial', 'sans-serif';
+        font-size: 12px;
+    }
+
+    header {
+        padding: 10px 0;
+        margin-bottom: 30px;
+    }
+
+    #logo {
+        text-align: center;
+        margin-bottom: 10px;
+        width: 150px;
+    }
+
+    #logo img {
+        width: 100%;
+    }
+
+    h1 {
+        color: #5D6975;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        margin: 20px 0 20px 0;
+        font-weight: bold;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    table th,
+    table td {
+        text-align: center;
+        vertical-align: top;
+    }
+
+    table th {
+        padding: 5px 20px;
+        color: #5D6975;
+        white-space: nowrap;
+        font-weight: normal;
+    }
+
+    table .service,
+    table .desc {
+        text-align: left;
+    }
+
+    table td {
+        padding: 20px;
+        text-align: left;
+    }
+
+    table td.service,
+    table td.desc {
+        vertical-align: top;
+    }
+
+    table td.unit,
+    table td.qty,
+    table td.total {
+        font-size: 1.2em;
+    }
+
+    table td.grand {
+        border-top: 1px solid #5D6975;
+        ;
+    }
+
+    #notices {
+        margin-top: 80px;
+
+        div {
+            font-size: 18px;
+            line-height: 21px;
+            color: #505050;
+            font-weight: bold;
+        }
+
+        .notice {
+            margin-top: 10px;
+            font-size: 12px;
+            line-height: 20px;
+            color: #505050;
+            max-width: 270px;
+            width: 100%;
+        }
+    }
+
+    //#PDF NEW DESIGNS
+    .pdf-body {
+        border: 10px solid #2964FF;
+        padding: 10px;
+    }
+
+    .d-flex {
+        display: flex;
+    }
+
+    .justify-content-between {
+        justify-content: space-between;
+    }
+
+    .logo-text {
+        p {
+            font-size: 12px;
+            line-height: 18px;
+            text-align: right;
+            color: #505050;
+            max-width: 260px;
+            width: 100%;
+        }
+    }
+
+    header {
+        table {
+            background-color: #E4E7F0;
+
+            td {
+                background: transparent !important;
+                text-align: left;
+
+                div {
+                    font-size: 12px;
+                    line-height: 20px;
+                    text-transform: uppercase;
+                    color: #505050;
+                    font-weight: bold;
+
+                    span {
+                        display: block;
+                        font-size: 9px;
+                        line-height: 13px;
+                        letter-spacing: 0.9px;
+                        text-transform: uppercase;
+                        color: #505050;
+                        font-weight: normal;
+                        margin-bottom: 3px;
+                    }
+                }
+            }
+        }
+    }
+
+    .label-title {
+        display: block;
+        font-size: 10px;
+        line-height: 15px;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+        color: #505050;
+        font-weight: normal;
+        margin-bottom: 3px;
+    }
+
+    .values-text {
+        font-size: 10px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: #505050;
+        font-weight: bold;
+    }
+
+    .client-name {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 27px;
+        /* or 110% */
+        text-transform: uppercase;
+        color: #505050;
+        max-width: 300px;
+    }
+
+    //#Checkcoe title
+    .checkcode-main {
+        strong {
+            font-style: normal;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 25px;
+            /* identical to box height */
+            text-transform: uppercase;
+            color: #505050;
+        }
+
+        small {
+            font-size: 12px;
+            max-width: 200px;
+            display: block;
+        }
+    }
+
+    .checkcode-title {
+        font-size: 10px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: #505050;
+    }
+
+    //#Card Table
+    .card-table {
+        thead {
+            background-color: #2A3557;
+
+            th {
+                font-size: 11px;
+                line-height: 12px;
+                /* or 109% */
+                text-align: center;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+
+        tbody {
+            background-color: #2E3A63;
+
+            td {
+                font-size: 9px;
+                line-height: 11px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .card-table__value {
+        font-size: 28px;
+        line-height: 33px;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    .card-table__title {
+        margin: 5px;
+        font-size: 9px;
+        line-height: 11px;
+        text-transform: uppercase;
+    }
+
+    //#endoresements
+    .endorsements-table {
+        td {
+            width: 25%;
+
+            p {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .endorsements {
+        font-size: 28px;
+        line-height: 33px;
+        text-transform: uppercase;
+        color: #505050;
+        margin-bottom: 15px;
+        font-weight: 900;
+
+        span {
+            font-size: 17px;
+            line-height: 19px;
+            text-transform: uppercase;
+            display: block;
+            color: #505050;
+            font-weight: 700;
+        }
+    }
+
+    //#Penalty Points
+    .penalty-points {
+        font-size: 10px;
+        line-height: 12px;
+        text-transform: uppercase;
+        color: #505050;
+        margin-bottom: 0;
+
+        span {
+            font-weight: bold;
+        }
+    }
+
+    //#Drive Table
+    .drive-table {
+
+        th,
+        td {
+            text-align: left;
+        }
+
+        thead {
+            background: #2A3557;
+
+            tr {
+                &:first-child {
+                    th {
+                        font-size: 16px;
+                        line-height: 19px;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                    }
+                }
+
+                th {
+                    font-size: 9px;
+                    line-height: 11px;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+                }
+            }
+        }
+
+        tbody {
+            td {
+                padding: 10px 10px;
+                font-size: 10px;
+                line-height: 12px;
+                text-transform: uppercase;
+                color: #505050;
+                vertical-align: middle;
+                width: 25%;
+
+                &:first-child {
+                    font-weight: 900;
+                }
+
+                img {
+                    margin-left: 15px;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+
+    //#TR BF COLOR
+    .drive-table {
+        tbody {
+            tr {
+                &:nth-child(even) {
+                    background-color: #E5E7ED;
+                }
+
+                &:nth-child(odd) {
+                    background-color: #fff;
+                }
+            }
+        }
+    }
