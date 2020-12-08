@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="18px" viewBox="0 0 75 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Closest@3x</title>
+    <g id="wecompare-logged-in" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Closest">
+            <path d="M7.10542736e-14,2.99406028 C7.10542736e-14,1.8927712 0.89453347,1 2.00606883,1 L72.9939312,1 C74.1018524,1 75,1.89451376 75,2.99406028 L75,15.0059397 C75,16.1072288 74.1054665,17 72.9939312,17 L2.00606883,17 C0.898147606,17 7.10542736e-14,16.1054862 7.10542736e-14,15.0059397 L7.10542736e-14,2.99406028 Z" id="base-copy-4" fill="#FF8C1D"></path>
+            <text font-family="BrandonGrotesque-Medium, Brandon Grotesque" font-size="10" font-weight="400" line-spacing="18" letter-spacing="0.6923075" fill="#FFFFFF">
+                <tspan x="13.8169238" y="11">CLOSEST</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
