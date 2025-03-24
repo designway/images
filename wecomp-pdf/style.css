@@ -1,17 +1,14 @@
 * {
-  -webkit-print-color-adjust: exact;
-}
+  -webkit-print-color-adjust: exact; }
 
 .clearfix:after {
   content: "";
   display: table;
-  clear: both;
-}
+  clear: both; }
 
 a {
   color: #5D6975;
-  text-decoration: underline;
-}
+  text-decoration: underline; }
 
 body {
   position: relative;
@@ -21,23 +18,19 @@ body {
   color: #001028;
   background-color: #FFFFFF;
   font-family: 'Brandon', 'Arial', 'sans-serif';
-  font-size: 12px;
-}
+  font-size: 12px; }
 
 header {
   padding: 10px 0;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
 #logo {
   text-align: center;
   margin-bottom: 10px;
-  width: 150px;
-}
+  width: 150px; }
 
 #logo img {
-  width: 100%;
-}
+  width: 100%; }
 
 h1 {
   color: #5D6975;
@@ -45,89 +38,68 @@ h1 {
   line-height: 14px;
   text-align: center;
   margin: 20px 0 20px 0;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 table {
   width: 100%;
   border-collapse: collapse;
-  border-spacing: 0;
-}
+  border-spacing: 0; }
 
 table th,
 table td {
   text-align: center;
-  vertical-align: top;
-}
+  vertical-align: top; }
 
 table th {
   padding: 5px 20px;
   color: #5D6975;
   white-space: nowrap;
-  font-weight: normal;
-}
+  font-weight: normal; }
 
 table .service,
 table .desc {
-  text-align: left;
-}
+  text-align: left; }
 
 table td {
   padding: 20px;
-  text-align: left;
-}
+  text-align: left; }
 
 table td.service,
 table td.desc {
-  vertical-align: top;
-}
+  vertical-align: top; }
 
 table td.unit,
 table td.qty,
 table td.total {
-  font-size: 1.2em;
-}
+  font-size: 1.2em; }
 
 table td.grand {
-  border-top: 1px solid #5D6975;
-}
+  border-top: 1px solid #5D6975; }
 
 #notices {
-  margin-top: 80px;
-}
-
-#notices div {
-  font-size: 18px;
-  line-height: 21px;
-  color: #505050;
-  font-weight: bold;
-}
-
-#notices .notice {
-  margin-top: 10px;
-  font-size: 12px;
-  line-height: 20px;
-  color: #505050;
-  max-width: 270px;
-  width: 100%;
-}
+  margin-top: 80px; }
+  #notices div {
+    font-size: 18px;
+    line-height: 21px;
+    color: #505050;
+    font-weight: bold; }
+  #notices .notice {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #505050;
+    max-width: 270px;
+    width: 100%; }
 
 .pdf-body {
   border: 10px solid #2964FF;
-  padding: 10px;
-}
+  padding: 10px; }
 
 .d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
+  display: flex; }
 
 .justify-content-between {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
+  justify-content: space-between; }
 
 .logo-text p {
   font-size: 12px;
@@ -135,36 +107,28 @@ table td.grand {
   text-align: right;
   color: #505050;
   max-width: 260px;
-  width: 100%;
-}
+  width: 100%; }
 
 header table {
-  background-color: #E4E7F0;
-}
-
-header table td {
-  background: transparent !important;
-  text-align: left;
-}
-
-header table td div {
-  font-size: 12px;
-  line-height: 20px;
-  text-transform: uppercase;
-  color: #505050;
-  font-weight: bold;
-}
-
-header table td div span {
-  display: block;
-  font-size: 9px;
-  line-height: 13px;
-  letter-spacing: 0.9px;
-  text-transform: uppercase;
-  color: #505050;
-  font-weight: normal;
-  margin-bottom: 3px;
-}
+  background-color: #E4E7F0; }
+  header table td {
+    background: transparent !important;
+    text-align: left; }
+    header table td div {
+      font-size: 12px;
+      line-height: 20px;
+      text-transform: uppercase;
+      color: #505050;
+      font-weight: bold; }
+      header table td div span {
+        display: block;
+        font-size: 9px;
+        line-height: 13px;
+        letter-spacing: 0.9px;
+        text-transform: uppercase;
+        color: #505050;
+        font-weight: normal;
+        margin-bottom: 3px; }
 
 .label-title {
   display: block;
@@ -174,16 +138,14 @@ header table td div span {
   text-transform: uppercase;
   color: #505050;
   font-weight: normal;
-  margin-bottom: 3px;
-}
+  margin-bottom: 3px; }
 
 .values-text {
   font-size: 10px;
   line-height: 12px;
   text-transform: uppercase;
   color: #505050;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .client-name {
   font-style: normal;
@@ -193,8 +155,7 @@ header table td div span {
   /* or 110% */
   text-transform: uppercase;
   color: #505050;
-  max-width: 300px;
-}
+  max-width: 300px; }
 
 .checkcode-main strong {
   font-style: normal;
@@ -203,68 +164,52 @@ header table td div span {
   line-height: 25px;
   /* identical to box height */
   text-transform: uppercase;
-  color: #505050;
-}
-
+  color: #505050; }
 .checkcode-main small {
   font-size: 12px;
   max-width: 200px;
-  display: block;
-}
+  display: block; }
 
 .checkcode-title {
   font-size: 10px;
   line-height: 12px;
   text-transform: uppercase;
-  color: #505050;
-}
+  color: #505050; }
 
 .card-table thead {
-  background-color: #2A3557;
-}
-
-.card-table thead th {
-  font-size: 11px;
-  line-height: 12px;
-  /* or 109% */
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
+  background-color: #2A3557; }
+  .card-table thead th {
+    font-size: 11px;
+    line-height: 12px;
+    /* or 109% */
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF; }
 .card-table tbody {
-  background-color: #2E3A63;
-}
-
-.card-table tbody td {
-  font-size: 9px;
-  line-height: 11px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
+  background-color: #2E3A63; }
+  .card-table tbody td {
+    font-size: 9px;
+    line-height: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF; }
 
 .card-table__value {
   font-size: 28px;
   line-height: 33px;
   text-transform: uppercase;
-  margin: 0;
-}
+  margin: 0; }
 
 .card-table__title {
   margin: 5px;
   font-size: 9px;
   line-height: 11px;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .endorsements-table td {
-  width: 25%;
-}
-
-.endorsements-table td p {
-  margin-top: 0;
-}
+  width: 25%; }
+  .endorsements-table td p {
+    margin-top: 0; }
 
 .endorsements {
   font-size: 28px;
@@ -272,53 +217,39 @@ header table td div span {
   text-transform: uppercase;
   color: #505050;
   margin-bottom: 15px;
-  font-weight: 900;
-}
-
-.endorsements span {
-  font-size: 17px;
-  line-height: 19px;
-  text-transform: uppercase;
-  display: block;
-  color: #505050;
-  font-weight: 700;
-}
+  font-weight: 900; }
+  .endorsements span {
+    font-size: 17px;
+    line-height: 19px;
+    text-transform: uppercase;
+    display: block;
+    color: #505050;
+    font-weight: 700; }
 
 .penalty-points {
   font-size: 10px;
   line-height: 12px;
   text-transform: uppercase;
   color: #505050;
-  margin-bottom: 0;
-}
-
-.penalty-points span {
-  font-weight: bold;
-}
+  margin-bottom: 0; }
+  .penalty-points span {
+    font-weight: bold; }
 
 .drive-table th,
 .drive-table td {
-  text-align: left;
-}
-
+  text-align: left; }
 .drive-table thead {
-  background: #2A3557;
-}
-
-.drive-table thead tr:first-child th {
-  font-size: 16px;
-  line-height: 19px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
-.drive-table thead tr th {
-  font-size: 9px;
-  line-height: 11px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
-
+  background: #2A3557; }
+  .drive-table thead tr:first-child th {
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #FFFFFF; }
+  .drive-table thead tr th {
+    font-size: 9px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF; }
 .drive-table tbody td {
   padding: 10px 10px;
   font-size: 10px;
@@ -326,23 +257,16 @@ header table td div span {
   text-transform: uppercase;
   color: #505050;
   vertical-align: middle;
-  width: 25%;
-}
-
-.drive-table tbody td:first-child {
-  font-weight: 900;
-}
-
-.drive-table tbody td img {
-  margin-left: 15px;
-  vertical-align: middle;
-}
+  width: 25%; }
+  .drive-table tbody td:first-child {
+    font-weight: 900; }
+  .drive-table tbody td img {
+    margin-left: 15px;
+    vertical-align: middle; }
 
 .drive-table tbody tr:nth-child(even) {
-  background-color: #E5E7ED;
-}
-
+  background-color: #E5E7ED; }
 .drive-table tbody tr:nth-child(odd) {
-  background-color: #fff;
-}
+  background-color: #fff; }
+
 /*# sourceMappingURL=style.css.map */
